@@ -276,3 +276,27 @@ ul.tagcloud .list-group-item span.badge {
   background-color: grey;
   color: white;
 }
+
+/* Prev & Next links */
+
+.navigation {
+  display: block;
+  text-align: center;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.navigation:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
